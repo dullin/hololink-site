@@ -1,0 +1,6 @@
+[submodule "themes/learn"]
+	path = themes/learn
+	url = https://github.com/matcornic/hugo-theme-learn.git
+[submodule "content/INF111"]
+	path = content/INF111
+	url = git@github.com:dullin/INF111-Cours.git

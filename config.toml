@@ -1,0 +1,23 @@
+baseURL = "http://ets.hololink.org/"
+languageCode = "fr-ca"
+title = "ETSCODE"
+theme = "learn"
+
+[params]
+  # Change default color scheme with a variant one. Can be "red", "blue", "green".
+  themeVariant = "red"
+
+[[menu.shortcuts]] 
+name = "<i class='fab fa-slack'></i> Slack"
+identifier = "sl"
+url = "https://etscode.slack.com"
+weight = 10
+
+[[menu.shortcuts]] 
+name = "Moodle"
+identifier = "md"
+url = "https://ena.etsmtl.ca"
+weight = 20
+
+[outputs]
+home = [ "HTML", "RSS", "JSON"]
