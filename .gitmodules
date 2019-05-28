@@ -4,3 +4,4 @@
 [submodule "content/INF111"]
 	path = content/INF111
 	url = https://github.com/dullin/INF111-Cours.git
+	branch = master
