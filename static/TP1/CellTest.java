@@ -1,19 +1,14 @@
 package org.hololink.life;
 
-import org.junit.jupiter.api.BeforeEach;
-import org.junit.jupiter.api.Test;
+import org.junit.Test;
+import static org.junit.Assert.*;
 
 import static org.hololink.life.CellState.*;
-import static org.junit.jupiter.api.Assertions.*;
 
-class CellTest {
-
-    @BeforeEach
-    void setUp() {
-    }
+public class CellTest {
 
     @Test
-    void getState() {
+    public void getState() {
         Cell c1 = new Cell();
         Cell c2 = new Cell(ALIVE);
 
@@ -22,7 +17,7 @@ class CellTest {
     }
 
     @Test
-    void getNextState() {
+    public void getNextState() {
         Cell c1 = new Cell(DEAD);
 
         assertEquals(ALIVE, c1.getNextState(3));
@@ -33,7 +28,7 @@ class CellTest {
     }
 
     @Test
-    void setState() {
+    public void setState() {
         Cell c = new Cell();
 
         c.setState(ALIVE);

@@ -1,14 +1,15 @@
 package org.hololink.life;
 
-import org.junit.jupiter.api.Test;
+import org.junit.Test;
+import static org.junit.Assert.*;
 
 import static org.hololink.life.CellState.*;
-import static org.junit.jupiter.api.Assertions.*;
 
-class NeighborhoodTest {
+
+public class NeighborhoodTest {
 
     @Test
-    void liveCount() {
+    public void liveCount() {
         CellState[][]  testGrid = new CellState[4][4];
 
         testGrid[0][0] = ALIVE;
