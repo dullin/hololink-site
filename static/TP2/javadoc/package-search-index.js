@@ -1,1 +1,1 @@
-packageSearchIndex = [{"l":"All Packages","url":"allpackages-index.html"},{"l":"org.hololink.labyrinth"},{"l":"org.hololink.labyrinth.generate"},{"l":"org.hololink.labyrinth.solve"},{"l":"org.hololink.position"}]
+packageSearchIndex = [{"l":"All Packages","url":"allpackages-index.html"},{"l":"org.hololink.collection"},{"l":"org.hololink.labyrinth"},{"l":"org.hololink.labyrinth.generate"},{"l":"org.hololink.labyrinth.solve"},{"l":"org.hololink.position"}]
