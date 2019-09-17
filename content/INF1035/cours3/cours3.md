@@ -7,5 +7,5 @@ weight = 30
 
 * [Présentation](/INF1035/cours3/cours3_pres.pdf)
 * [Note de cours](/INF1035/cours3/cours3_note_pres.pdf)
-* [Exercices](/INF1035/cours2/cours2.zip)
-* [Notes du tableau](/INF1035/cours2/cours2-tableau.pdf)
+* [Exercices](/INF1035/cours3/cours3.zip)
+* [Notes du tableau](/INF1035/cours3/cours3-tableau.pdf)
